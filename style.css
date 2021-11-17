@@ -15,6 +15,7 @@ body{
 } 
 footer{
     height: 80px;
+    color: #282828;
 }
 
 /* MAIN */
@@ -22,7 +23,7 @@ footer{
     height:calc(100vh - 80px);
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     
 }
 .menu{
@@ -31,7 +32,9 @@ footer{
     background-color: black;
     font-size: 12px;
     padding: 10px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .content{
     flex-grow: 1;
@@ -73,8 +76,22 @@ h4{
     line-height: 25px;
 }
 .playlist span,
-.top-menu ul li{
+.top-menu ul li,
+.user{
     display: flex;
     align-items: center;
+}
+.installa{
+    padding: 3px;
+    margin-bottom: 2px;
+    color: #A3A3A3;
+    border-bottom: solid 1px #A3A3A3;
+}  
+.user i{
+    color: #A3A3A3;
+    font-size: 20px;
+}
+.user span{
+    color: white;
 }
 
