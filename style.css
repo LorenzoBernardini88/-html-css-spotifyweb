@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+.container-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu{
+    background-color: black;
+}
+.contenuto{
+    background-color: #141922;
+}
