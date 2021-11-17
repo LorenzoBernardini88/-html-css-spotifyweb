@@ -15,7 +15,7 @@ body{
 } 
 footer{
     height: 80px;
-    color: #282828;
+    background-color: #282828;
 }
 
 /* MAIN */
@@ -36,10 +36,6 @@ footer{
     flex-direction: column;
     justify-content: space-between;
 }
-.content{
-    flex-grow: 1;
-    background-color: #141922;
-} 
 
 /* menu */
 .logo-big{
@@ -93,5 +89,19 @@ h4{
 }
 .user span{
     color: white;
+}
+
+/* content */
+.content{
+    flex-grow: 1;
+    background-color: #141922;
+} 
+.top-main{
+    height: 80px;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
