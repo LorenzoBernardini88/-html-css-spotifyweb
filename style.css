@@ -8,6 +8,7 @@ body{
     font-size: 14px;
     color: #fff;
 }
+
 /* HOVER EFFECTS */
 /* .top-main a:hover{
     transform: scale(1.5);
@@ -24,6 +25,10 @@ a{
 footer{
     height: 70px;
     background-color: #282828;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 /* MAIN */
@@ -104,6 +109,7 @@ h4{
     background-color: #141922;
     position: relative;
     padding-top: 70px;
+    overflow-y: scroll;
 } 
 /* top-main */
 .top-main{
@@ -148,17 +154,28 @@ h4{
 }
 
 /* Container section main */
+.container-section-main{
+    padding: 0px 20px;
+    
+}
 .recently{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
+    text-align: center;
 
 }
-.recently .song-played{
+.song-played,
+.song-john{
     width: 15%;
 }
-.recently .song-played img{
+.song-played img,
+.song-john img{
     width: 100%;
 }
+.john{
+    display: flex;
+}
+
 
 
 
