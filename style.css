@@ -2,12 +2,17 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    
 }
-
 body{
     height: 100vh;
+    font-size: 14px;
 }
+/* HOVER EFFECTS */
+/* .top-main a:hover{
+    transform: scale(1.5);
+    
+} */
+
 
 /* display none */
 .logo-small{
@@ -24,7 +29,6 @@ footer{
     width: 100%;
     display: flex;
     flex-direction:row;
-    
 }
 .menu{
     width: 200px;
@@ -95,13 +99,28 @@ h4{
 .content{
     flex-grow: 1;
     background-color: #141922;
+    position: relative;
 } 
+/* top-main */
 .top-main{
+    padding-right: 20px;
     height: 80px;
     background-color: rgba(0, 0, 0, .5);
-    position: fixed;
+    position:absolute;
     left: 0;
     top: 0;
     width: 100%;
+    text-align: right;
 }
+.top-button{
+    font-size: 10px;
+    color: #fff;
+    border: solid 1px #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 80px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
 
