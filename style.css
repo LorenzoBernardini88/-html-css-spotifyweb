@@ -59,6 +59,7 @@ a{
     width: 25px;
     color:#A3A3A3;
 }
+
 /* playlist */
 h4{
     color: white;
@@ -105,6 +106,7 @@ h4{
     padding-top: 70px;
     overflow-y: scroll;
 } 
+
 /* top-main */
 .top-main{
     padding-right: 20px;
@@ -125,6 +127,7 @@ h4{
     padding: 10px 30px;
     border-radius: 30px;
 }
+
 /* nav-main */
 .container-nav-main{
     padding: 10px 0px;
@@ -157,7 +160,6 @@ section{
 .intestazione{
     margin-bottom: 20px;
 }
-
 .container-section-main p{
     color:#A3A3A3 ;
     margin-top: 10px;
@@ -167,7 +169,6 @@ section{
     position: relative;
     left: 20px;
 }
-
 .recently{
     display: flex;
     justify-content:space-between;
@@ -219,12 +220,8 @@ footer i{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
-.player.center{
-    width: 40%;
-    margin:0 auto;
-}
+
 /* footer left */
 .player .left{
     width: 200px;
@@ -248,7 +245,56 @@ i.fa-heart{
 }
 /* footer right */
 .player .right{
+    font-size: 12px;
     width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right .volume-bar{
+    width: 100px;
+    height: 3px;
+    background-color: #A3A3A3;
+}   
+.volume-level{
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+}
+/* footer center */
+.player .center{
+    width: 40%;
+    margin:0 auto;
+}
+.buttons-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.buttons-player i{
+    padding-right: 20px;
+    color: #fff;
+}
+.buttons-player .fa-play-circle{
+    font-size: 25px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 8px;
+}
+.timing {
+    width: 80%;
+    height: 3px;
+    background-color: #A3A3A3;
+    
+}
+.timing .timing-level{
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
 }
 
 
