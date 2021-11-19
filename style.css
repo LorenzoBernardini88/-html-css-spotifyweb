@@ -165,11 +165,6 @@ section{
     color:#A3A3A3 ;
     margin-top: 10px;
 }
-/* #mix,
-#eina{
-    position: relative;
-    left: 20px;
-} */
 .recently{
     display: flex;
     justify-content:space-between;
@@ -192,6 +187,7 @@ section{
 .john,
 .popolari{
     display: flex;
+    gap: 1%;
 }
 .song-popolari img{
     border-radius: 50%;
@@ -298,7 +294,8 @@ i.fa-heart{
 }
 
 /* MEDIA QUERIES */
-    /* MOBILE */
+
+/* 1) MOBILE XS */
 @media screen and (max-width: 480px){
     /* MENU */
     .menu{
@@ -354,6 +351,20 @@ i.fa-heart{
         display: flex;
         flex-direction: column;
     }
+}
+
+/* 2) MOBILE S */
+@media screen and (min-width: 481px) {
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -374,6 +385,7 @@ i.fa-heart{
 
 
 }
+
 
 
 
