@@ -14,10 +14,9 @@ body{
 }
 
 /* HOVER EFFECTS */
-/* .top-main a:hover{
+.top-main span:hover{
     transform: scale(1.5);
-    
-} */
+}
 a{
     text-decoration: none;
 }
@@ -324,11 +323,21 @@ i.fa-heart{
     .footer-menu .installa {
         border-bottom: none;
     }
+    /* PROPRIETA' CSS "CONTENT" "FOOTER" COMPRESE 
+    IN @MEDIA VERSIONE MOBILE S  */
+}
+
+/* 2) MOBILE S */
+@media screen and (max-width: 576px) {
     /* CONTENT */
+    .nav-main{
+        width: 80%;
+    }
     .nav-main ul{
         display: flex;
-        justify-content:space-between;
+        justify-content:center;
         flex-wrap: wrap;
+        gap: 10px;
     }
     .recently{
         display: flex;
@@ -351,10 +360,10 @@ i.fa-heart{
         display: flex;
         flex-direction: column;
     }
-}
 
-/* 2) MOBILE S */
-@media screen and (min-width: 481px) {
+    3) MOBILE 
+
+
 
 
 
