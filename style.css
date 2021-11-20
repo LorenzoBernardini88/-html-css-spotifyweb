@@ -25,9 +25,13 @@ a{
 .center a .fa-play-circle:hover{
     transform: scale(1.1);
 }
-.volume-level:hover,
-.timing-level:hover{
+.timing:hover .timing-level,
+.volume-bar:hover .volume-level{
     background-color: greenyellow;
+}
+.timing:hover .pallino,
+.volume-bar:hover .pallino{
+    display: block;
 }
 a:hover{
     color: #fff;
@@ -235,6 +239,20 @@ footer p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.volume-level,
+.timing-level{
+    position: relative;
+}
+.pallino{
+    display:none;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top:-4px;
+    right: 0;
 }
 
 /* footer left */
