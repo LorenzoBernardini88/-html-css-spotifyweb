@@ -430,10 +430,20 @@ i.fa-heart{
     position: relative;
 }
 .overlay{
+    width: 100%;
+    height: calc(100% - 43px);
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top:0;
+    left:0;
+    display: none;
+}    
+.overlay i{
+    font-size: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
-    display: none;
+    transform: translate(-50% -50%);
 }
 .play:hover .overlay{
     display: block;
