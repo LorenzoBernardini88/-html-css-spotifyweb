@@ -423,10 +423,8 @@ i.fa-heart{
     } 
 }
 
-
-
-/* PROVA HOVER IMG */
-.play {
+/* PROVA HOVER IMG overlay */
+/* .song-played {
     position: relative;
 }
 .overlay{
@@ -444,10 +442,13 @@ i.fa-heart{
     top: 50%;
     transform: translateY(-50%);    
 }
-.play:hover .overlay{
+.song-played:hover .overlay{
     display: block;
-}
+} */
 
+.container-section-main img:hover::after{
+    content: "<a href="#"><i class="far fa-play-circle"></i></a>";
+}
 
 
 
