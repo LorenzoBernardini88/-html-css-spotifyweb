@@ -425,7 +425,7 @@ i.fa-heart{
 
 
 
-/* HOVER IMG */
+/* PROVA HOVER IMG */
 .play {
     position: relative;
 }
@@ -439,12 +439,10 @@ i.fa-heart{
     display: none;
 }    
 .overlay i{
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
     top: 50%;
-    transform: translateY(-50%);
-
-    
+    transform: translateY(-50%);    
 }
 .play:hover .overlay{
     display: block;
