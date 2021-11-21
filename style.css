@@ -151,9 +151,6 @@ h4{
 }
 
 /* nav-main */
-.container-nav-main{
-    padding: 10px 0px;
-}
 .nav-main{
     width: 100%;
 }
@@ -424,7 +421,7 @@ i.fa-heart{
 }
 
 /* PROVA HOVER IMG overlay */
-/* .song-played {
+.song-played {
     position: relative;
 }
 .overlay{
@@ -444,12 +441,7 @@ i.fa-heart{
 }
 .song-played:hover .overlay{
     display: block;
-} */
-
-.container-section-main img:hover::after{
-    content: "<a href="#"><i class="far fa-play-circle"></i></a>";
 }
-
 
 
 
